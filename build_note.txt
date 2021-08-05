@@ -1,0 +1,5 @@
+build发布方式：
+0.（在App.vue中修改版本号）
+1.npm run build
+2.将/dist/dist中的js和css文件夹剪切到/dist中
+3.将根目录的index.html中<link rel=icon href=/favicon.ico>改为<link rel=icon href=/dist/favicon.ico>
